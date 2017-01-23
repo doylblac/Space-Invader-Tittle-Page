@@ -12,8 +12,6 @@ namespace Space_Invader_Tittle_Page
 {
     public partial class Form1 : Form
     {
-        int page = 0;
-
         List<int> highScores = new List<int>();
 
         int score = 20001;

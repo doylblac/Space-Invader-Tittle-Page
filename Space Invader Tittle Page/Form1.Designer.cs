@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.playGameButton = new System.Windows.Forms.Button();
             this.highScoreButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -61,7 +60,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::Space_Invader_Tittle_Page.Properties.Resources.tittle_screen;
             this.ClientSize = new System.Drawing.Size(766, 706);
             this.ControlBox = false;
             this.Controls.Add(this.highScoreButton);

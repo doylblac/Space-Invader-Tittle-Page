@@ -84,6 +84,9 @@
     <None Include="Resources\Tittle Background.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\tittleScreen.bmp" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\tittle screen.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
